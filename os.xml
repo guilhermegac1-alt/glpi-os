@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+    <name>OS - Ordem de Serviço</name>
+    <key>os</key>
+    <state>stable</state>
+    <logo>https://raw.githubusercontent.com/guilhermegac1-alt/glpi-os/main/os.png</logo>
+    <description>
+        <short>
+            <pt_BR>Gera Ordem de Serviço em PDF (A4 ou etiqueta) a partir do chamado.</pt_BR>
+            <en>Generates a service order PDF (A4 or label) from a ticket.</en>
+        </short>
+        <long>
+            <pt_BR>Port do plugin OS de Junior Marcati para o GLPI 11: gera a O.S. em A4 ou etiqueta com QR Code, dados da empresa, CNPJ por entidade, itens vinculados, custos, descrição e solução.</pt_BR>
+            <en>Port of Junior Marcati's OS plugin to GLPI 11.</en>
+        </long>
+    </description>
+    <homepage>https://github.com/guilhermegac1-alt/glpi-os</homepage>
+    <license>GPL v3+</license>
+    <authors>
+        <author>Junior Marcati</author>
+    </authors>
+    <versions>
+        <version>
+            <num>1.0.0</num>
+            <compatibility>~11.0.0</compatibility>
+        </version>
+    </versions>
+    <langs>
+        <lang>pt_BR</lang>
+    </langs>
+</root>
